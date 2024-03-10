@@ -1,0 +1,237 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    background-color: #1F2937;
+
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 0px 100px;
+}
+
+.nav {
+    display: flex;
+    padding: 10px 100px;
+}
+
+.logo {
+
+    font-size: 35px;
+
+    color: aquamarine;
+    font-weight: bold;
+}
+
+.links {
+    margin-left: auto;
+    color: aqua;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: aqua;
+}
+
+.intro {
+    display: flex;
+    padding: 175px 80px;
+}
+
+.intro_text {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.intro_name {
+    font-size: 33px;
+    color: rgb(248, 251, 249);
+    font-weight: bolder;
+    padding-bottom: 10px;
+
+}
+
+.intro_subtext {
+    font-size: 20px;
+    color: #E5E7EB;
+    padding-bottom: 10px;
+}
+
+input[type=button] {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 10px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.visit_button {
+    border-color: #1F2937;
+    width: 100px;
+}
+
+.intro_img {
+
+    width: 600px;
+
+}
+
+.body {
+    flex: 1;
+}
+
+.resident_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: skyblue;
+    padding: 50px 150px;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 52px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.certi {
+    color: ivory;
+    font-family: "Serif";
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.contact {
+    color: skyblue;
+    font-size: 28px;
+    text-decoration: none;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.residents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.icon {
+    color: ivory;
+    font-size: 27px;
+    text-align: center;
+}
+
+.item {
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    margin-right: 25px;
+}
+
+.price {
+    color: #fff;
+    font-weight: bold;
+}
+
+.resident {
+    max-width: 200px;
+    text-align: center;
+}
+
+.resident_img {
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.resident_description {
+    color: #E5E7EB;
+
+}
+
+#testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    padding: 100px 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    width: 475px;
+}
+
+.reference {
+    color: #1F2937;
+    font-weight: bold;
+    width: 450px;
+    text-align: right;
+}
+
+#action {
+    background-color: #3882F6;
+    margin: 50px 300px;
+    display: flex;
+    align-items: center;
+    padding: 50px 80px;
+    gap: 50px;
+}
+
+.action_text {
+    margin-right: auto;
+    color: #F9FAF8;
+}
+
+.action_call {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.donate_button {
+    border: 2px solid white;
+    width: 200px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 20px;
+}
